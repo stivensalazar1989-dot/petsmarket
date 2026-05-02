@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7755e8b-cabd-441c-aeae-6d69658aa5ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/cards.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/page/creatuperfil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/perro-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/page/creatuperfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/creatuperfil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/productos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/promociones.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/promociones.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/quienessomos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/quienessomos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/video_de_perro.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,31 +31,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html (1).executor": "Run",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.productos.html.executor": "Run",
-    "JavaScript Debug.promociones.html.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "javascript.preferred.runtime.type.id": "node",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Esteban/WebstormProjects/petsmarket",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.productos.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.promociones.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/_Steven/WebstormProjects/petsmarket&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Esteban\WebstormProjects\untitled" />
@@ -104,7 +106,12 @@
       <workItem from="1776531118105" duration="2650000" />
       <workItem from="1776822814640" duration="4438000" />
       <workItem from="1777416769379" duration="12000" />
-      <workItem from="1777416797006" duration="4388000" />
+      <workItem from="1777416797006" duration="8219000" />
+      <workItem from="1777486787549" duration="598000" />
+      <workItem from="1777683020250" duration="717000" />
+      <workItem from="1777684245506" duration="7595000" />
+      <workItem from="1777728365223" duration="11179000" />
+      <workItem from="1777742907060" duration="34000" />
     </task>
     <servers />
   </component>
