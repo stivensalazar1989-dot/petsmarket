@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7755e8b-cabd-441c-aeae-6d69658aa5ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/perro-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/creatuperfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/creatuperfil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/productos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/promociones.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/promociones.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/page/quienessomos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/quienessomos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/video/video_de_perro.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Esteban\WebstormProjects\untitled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_Steven\WebstormProjects\petsmarket" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -112,6 +115,9 @@
       <workItem from="1777684245506" duration="7595000" />
       <workItem from="1777728365223" duration="11179000" />
       <workItem from="1777742907060" duration="34000" />
+      <workItem from="1777910351251" duration="7971000" />
+      <workItem from="1777923278848" duration="31000" />
+      <workItem from="1777923339370" duration="2523000" />
     </task>
     <servers />
   </component>
