@@ -1,49 +1,99 @@
-
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pets Market</title>
-
+    <title>Productos - Pets Market</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <style>
-        .container {
-            display: flex;
-            background-color: lightgreen;
-        }
 
-        .container div {
-            background-color: #f1f1f1;
-            margin: 10px;
-            padding: 20px;
-            font-size: 25px;
-        }
+        .container { background-color: lightgreen; }
+        .container div { background-color: #f1f1f1; margin: 10px; padding: 20px; font-size: 25px; }
+        .product-section { background: linear-gradient(135deg, #a8e6cf, #dcedc1); padding: 40px 0; }
     </style>
-
 </head>
 <body>
 
 
-<a href=""></a>
-<a href="../../index.html">inicio</a>
-<a href="quienessomos.html">quienes somos</a>
-<a href="promociones.html">promociones</a>
-<a href="productos.html">productos</a>
-<a href="creatuperfil.html">creatuperfil</a>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="../../index.html">
+            <img src="../../assets/img/logopetsmarket.jpg" alt="Logo" style="width:40px;" class="rounded-pill me-2">
+            <span>Pets Market</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="../../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="../quienessomos.html">Quienes somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="../promociones.html">Promociones</a></li>
+                <li class="nav-item"><a class="nav-link active" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="creatuperfil.html">Crea tu perfil</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-<h1>Nuestros productos</h1>
+<!-- 2. CONTENIDO PRODUCTOS -->
+<main class="container-fluid mt-5 pt-5">
+
+    <!-- Título -->
+    <div class="text-center mb-5 product-section">
+        <h1 class="display-4 fw-bold text-dark mb-3">🛒 Nuestros Productos</h1>
+        <p class="lead">Todo para tu mascota con los mejores precios</p>
+    </div>
 
 
+    <div class="container mx-auto mb-5 text-center">
+        <div class="row g-3 justify-content-center">
+            <div class="col-md-2 col-6"><a href="#concentrado" class="btn btn-outline-success w-100 py-3">🍖 Concentrado</a></div>
+            <div class="col-md-2 col-6"><a href="#dietas" class="btn btn-outline-success w-100 py-3">🥗 Dietas</a></div>
+            <div class="col-md-2 col-6"><a href="#accesorios" class="btn btn-outline-success w-100 py-3">🎾 Accesorios</a></div>
+            <div class="col-md-2 col-6"><a href="#medicina" class="btn btn-outline-success w-100 py-3">💊 Medicina</a></div>
+            <div class="col-md-2 col-6"><a href="#snacks" class="btn btn-outline-success w-100 py-3">🍪 Snacks</a></div>
+        </div>
+    </div>
 
-<div class="container">
-    <div>concentrado</div>
-    <div>dietas</div>
-    <div>accesorios</div>
-    <div>medicina</div>
-    <div>snacks</div>
-</div>
+    <!-- Grilla de Productos -->
+    <div class="row g-4 px-3">
 
+        <!-- Concentrado -->
+        <div class="col-lg-3 col-md-6 col-12">
+            <div class="card h-100 shadow-lg border-0">
+                <img src="../../assets/img/cuido.jpg" class="card-img-top" style="height: 220px; object-fit: cover;">
+                <div class="card-body d-flex flex-column p-4">
+                    <h5 class="card-title fw-bold">CG Gela Premium</h5>
+                    <p class="card-text flex-grow-1">Concentrado para perros adultos 10kg</p>
+                    <div class="text-center mb-3">
+                        <span class="h3 text-danger fw-bolder">$45.000</span>
+                        <br><small class="text-success fw-bold">🔥 Oferta especial</small>
+                    </div>
+                    <button class="btn btn-success btn-lg w-100">🛒 Comprar Ahora</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- Snacks -->
+        <div class="col-lg-3 col-md-6 col-12">
+            <div class="card h-100 shadow-lg border-0">
+                <img src="../../assets/img/snacks.jpg" class="card-img-top" style="height: 220px; object-fit: cover;">
+                <div class="card-body d-flex flex-column p-4">
+                    <h5 class="card-title fw-bold">Snacks Dental</h5>
+                    <p class="card-text flex-grow-1">Galletas dentales para perros medianos</p>
+                    <div class="text-center mb-3">
+                        <span class="h3 text-danger fw-bolder">$18.000</span>
+                        <br><small class="text-muted">Pack x12</small>
+                    </div>
+                    <button class="btn btn-success btn-lg w-100">🛒 Añadir Carrito</button>
+                </div>
+            </div>
+        </div>
 
+    </div>
+</main>
 
 </body>
 </html>
