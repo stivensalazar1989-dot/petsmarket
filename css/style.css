@@ -84,3 +84,15 @@ img, video { border-radius: 10px; object-fit: cover; box-shadow: 0 4px 6px rgba(
         box-shadow: 0 25px 50px rgba(0,0,0,0.3);
     }
 
+    .location-card,
+    .team-card {
+        transition: all 0.4s ease;
+        border: none;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .location-card:hover,
+    .team-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important;
+    }

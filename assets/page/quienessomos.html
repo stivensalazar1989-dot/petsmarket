@@ -1,16 +1,169 @@
-!Quienes somos?
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
-  <title>Document</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿Quiénes somos? - Pets Market</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <style>
-
+      .container { background-color: lightgreen; }
+      .about-section {
+          background: linear-gradient(135deg, #a8e6cf, #dcedc1);
+          padding: 60px 0;
+          border-radius: 20px;
+          margin: 20px 0;
+      }
+      .team-card, .location-card {
+          transition: all 0.4s ease;
+          border: none;
+          box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      }
+      .team-card:hover, .location-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important;
+      }
   </style>
 </head>
 <body>
-<a href="../../index.html">inicio </a>
-<a href="promociones.html">promociones</a>
-<a href="productos.html">productos</a>
-<a href="creatuperfil.html">creatuperfil</a>
-<a href="quienessomos.html">quienessomos</a>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../../index.html">
+      <img src="../../assets/img/logopetsmarket.jpg" alt="Logo" style="width:40px;" class="rounded-pill me-2">
+      <span>Pets Market</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../../index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="quienessomos.html">¿Quienes somos?</a></li>
+        <li class="nav-item"><a class="nav-link" href="promociones.html">Promociones</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="creatuperfil.html">Crea tu perfil</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<main class="container-fluid mt-5 pt-5">
+  <!-- Hero Section -->
+  <div class="text-center mb-5 about-section">
+    <h1 class="display-4 fw-bold text-dark mb-4">🐾 ¿QUIÉNES SOMOS?</h1>
+    <p class="lead fs-3 text-dark fw-bold">Tu tienda de mascotas favorita en Envigado</p>
+  </div>
+
+  <!-- nuestra historia -->
+  <div class="container mb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="text-center mb-5">
+          <h2 class="display-6 fw-bold text-success mb-4">🌟 Nuestra Historia</h2>
+          <p class="fs-5 text-muted">
+            En <strong>Pets Market</strong> somos apasionados por las mascotas. Ubicados en el corazón de
+            <strong>Envigado, justo al lado del CEFIT</strong>, llevamos años brindando lo mejor para tu
+            compañero fiel: concentrados premium, snacks saludables, accesorios de calidad y mucho cariño.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- la ubicacio va aqui -->
+
+  <div class="col-lg-6">
+    <div class="card location-card h-100 shadow-lg border-0">
+      <div class="card-header bg-success text-white text-center py-3">
+        <h4 class="mb-0 fw-bold">📍 PETS MARKET ENVIGADO</h4>
+        <small>Justo al lado del CEFIT</small>
+      </div>
+      <div class="card-body p-0">
+
+        <!-- mapa interactivo -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.311234567890!2d-75.58123456789012!3d6.167845678901234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428a5b4b4b4b4%3A0x1234567890abcdef!2sCEFIT%20Envigado!5e0!3m2!1ses!2sco!4v1736500000000!5m2!1ses!2sco"
+          width="100%"
+          height="400"
+          style="border:0; border-radius: 0 0 15px 15px;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="card-footer bg-light text-center p-3">
+        <div class="row g-2">
+          <div class="col-6">
+            <a href="https://maps.app.goo.gl/CEFITenvigado" class="btn btn-success w-100 fs-6" target="_blank">
+              🗺️ Abrir Maps
+            </a>
+          </div>
+          <div class="col-6">
+            <a href="tel:+57300XXXXXXX" class="btn btn-outline-success w-100 fs-6">
+              📞 WhatsApp
+            </a>
+          </div>
+        </div>
+        <small class="text-muted mt-2 d-block">🕒 Lun-Sáb 8am-8pm | Dom 9am-6pm</small>
+      </div>
+    </div>
+  </div>
+
+      <!-- Nuestro Equipo -->
+      <div class="col-lg-6">
+        <div class="card team-card h-100">
+          <div class="card-body text-center p-5">
+            <h3 class="card-title fw-bold text-warning mb-4">👥 NUESTRO EQUIPO</h3>
+            <div class="mb-4">
+              <i class="bi bi-people fs-1 text-warning mb-3"></i>
+            </div>
+            <h5 class="fw-bold mb-3">Especialistas en mascotas</h5>
+            <ul class="list-unstyled fs-5 text-muted">
+              <li>🏆 Veterinarios certificados</li>
+              <li>🐶 Entrenadores profesionales</li>
+              <li>📦 Envíos a toda Antioquia</li>
+              <li>⭐ Atención personalizada</li>
+            </ul>
+            <button class="btn btn-warning btn-lg w-100 mt-3">💬 Contáctanos</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- mision y vision  -->
+  <div class="container mb-5">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card h-100 shadow-lg border-0 bg-success bg-opacity-10">
+          <div class="card-body p-5 text-center">
+            <h4 class="fw-bold text-success mb-3">🎯 Misión</h4>
+            <p class="fs-5">Brindar productos y servicios de máxima calidad para el bienestar integral de tu mascota, con precios justos y excelente atención.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 shadow-lg border-0 bg-primary bg-opacity-10">
+          <div class="card-body p-5 text-center">
+            <h4 class="fw-bold text-primary mb-3">🚀 Visión</h4>
+            <p class="fs-5">Ser la tienda de mascotas número 1 de Envigado y referencia obligada para todo Antioquia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- numeros de contacto -->
+  <div class="text-center mb-5 py-5 bg-light rounded-4">
+    <h2 class="display-6 fw-bold text-success mb-4">🐕 ¡Tu mascota se merece lo mejor!</h2>
+    <p class="fs-4 text-muted mb-4">Visítanos en Envigado o compra online</p>
+    <a href="productos.html" class="btn btn-success btn-lg fs-5 px-5 me-3">🛒 Ver Productos</a>
+    <a href="promociones.html" class="btn btn-outline-success btn-lg fs-5 px-5">🔥 Promociones</a>
+  </div>
+</main>
+
+</body>
+</html>

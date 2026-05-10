@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7755e8b-cabd-441c-aeae-6d69658aa5ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prueba.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/creatuperfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/creatuperfil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/productos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/productos.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/page/promociones.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/promociones.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/page/quienessomos.html" beforeDir="false" afterPath="$PROJECT_DIR$/assets/page/quienessomos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,34 +29,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.creatuperfil.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html (1).executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.productos.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.promociones.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.prueba.html.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/_Steven/WebstormProjects/petsmarket&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.creatuperfil.html.executor": "Run",
+    "JavaScript Debug.index.html (1).executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.productos.html.executor": "Run",
+    "JavaScript Debug.promociones.html.executor": "Run",
+    "JavaScript Debug.prueba.html.executor": "Run",
+    "JavaScript Debug.quienessomos.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/_Steven/WebstormProjects/petsmarket",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Esteban\WebstormProjects\untitled" />
@@ -65,14 +66,11 @@
       <recent name="D:\_Steven\WebstormProjects\petsmarket" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.prueba.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="creatuperfil.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/petsmarket/assets/page/creatuperfil.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/petsmarket/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="productos.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/petsmarket/assets/page/productos.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="promociones.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/petsmarket/assets/page/promociones.html" useBuiltInWebServerPort="true">
@@ -81,13 +79,16 @@
     <configuration name="prueba.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/petsmarket/prueba.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="quienessomos.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/petsmarket/assets/page/quienessomos.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.prueba.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.quienessomos.html" />
+        <item itemvalue="JavaScript Debug.prueba.html" />
         <item itemvalue="JavaScript Debug.creatuperfil.html" />
         <item itemvalue="JavaScript Debug.promociones.html" />
-        <item itemvalue="JavaScript Debug.productos.html" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +125,7 @@
       <workItem from="1777923339370" duration="2523000" />
       <workItem from="1777991535594" duration="13600000" />
       <workItem from="1778032300756" duration="31000" />
+      <workItem from="1778372354341" duration="4564000" />
     </task>
     <servers />
   </component>
